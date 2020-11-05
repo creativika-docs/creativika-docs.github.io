@@ -1,4 +1,4 @@
 <script language="JavaScript">
 pass = prompt('Enter Password, please:');
-if (pass=='!!!0!!!') { alert('!!!1!!!') } else { alert('!!!2!!!'), top.location.href="!!!3!!!" }</script>
+if (pass=='200300') { alert('Успех!') } else { alert('Пароль неверен'), top.location.href="/" }</script>
 Материалы для обучающихся
