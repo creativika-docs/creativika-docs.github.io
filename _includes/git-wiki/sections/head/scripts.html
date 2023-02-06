@@ -9,7 +9,7 @@
   return matches ? decodeURIComponent(matches[1]) : undefined;
   }
   alert( document.cookie )
-  checked = readCookie('checked');
+  let checked = readCookie('checked');
   if checked != 'проверено'{
     pass = prompt('Enter Password, please:');
     if (pass!='200300') {
