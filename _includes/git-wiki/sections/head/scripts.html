@@ -9,13 +9,14 @@
   return matches ? decodeURIComponent(matches[1]) : undefined;
   }
   checked = readCookie('checked');
-  if checked == false{
+  if checked != 'проверено'{
     pass = prompt('Enter Password, please:');
     if (pass!='200300') {
       alert('Пароль неверен');
       top.location.href="/";
+      
     } else{
-     document.cookie = "checked=true; max-age=3600"; 
+     document.cookie = "checked=проверено; max-age=3600"; 
     }
   }
 </script>
