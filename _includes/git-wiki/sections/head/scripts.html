@@ -10,13 +10,13 @@
   }
   checked = readCookie('test_var');
   if checked == false{
-  pass = prompt('Enter Password, please:');
-  if (pass!='200300') {
-    alert('Пароль неверен');
-    top.location.href="/";
-  } else{
+    pass = prompt('Enter Password, please:');
+    if (pass!='200300') {
+      alert('Пароль неверен');
+      top.location.href="/";
+    } else{
      document.cookie = "checked=true; max-age=3600"; 
-  }
+    }
   }
 </script>
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
